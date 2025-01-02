@@ -1,6 +1,6 @@
-FROM ubuntu:18.04
-LABEL maintainer="fabtesta@gmail.com" \
-      version="1.0.0"
+FROM ubuntu:latest
+LABEL maintainer="shoban@gmail.com" \
+      version="0.0.1"
 
 ENV DEBIAN_FRONTEND noninteractive
 
