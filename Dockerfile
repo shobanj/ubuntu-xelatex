@@ -13,7 +13,7 @@ RUN apt install -y --no-install-recommends \
   inotify-tools \
   make \
   texlive-full \
-  html-tidy && \
+  tidy && \
   apt autoclean && apt --purge --yes autoremove
 
 WORKDIR /data
