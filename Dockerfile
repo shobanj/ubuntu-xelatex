@@ -1,8 +1,8 @@
 FROM ubuntu:latest
 LABEL maintainer="shoban@gmail.com" \
-      version="0.0.1"
+      version="0.0.2"
 
-ENV DEBIAN_FRONTEND noninteractive
+ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt update && \
     apt upgrade -y
